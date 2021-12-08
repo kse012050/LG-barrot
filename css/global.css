@@ -1,0 +1,9 @@
+header{position: fixed; left: 0; top: 0; width: 100%; padding: 55px 60px 0; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center;}
+header h1{max-width: 133px;}
+header h1 a{display: block;}
+header h1 a img{width: 100%;}
+header button{width: 86px; height: 86px; background-color: #0022cc; border-radius: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+header button span{width: 25px; height: 3px; background-color: white;}
+header button span:not(:last-child){margin-bottom: 10px;}
+header button span:nth-child(1){margin-right: 5px;}
+header button span:nth-child(2){margin-left: 5px;}
