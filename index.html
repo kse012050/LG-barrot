@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,14 @@
     <!-- Iphone 모바일 확대 방지 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, user-scalable=0">
     <title>LG 디스플레이 Barrot</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- bxslider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- user JS -->
+    <script src="js/main.js"></script>
+    <!-- user CSS -->
     <link rel="stylesheet" href="css/import.css">
 </head>
 <body>
@@ -18,9 +26,9 @@
         </button>
     </header>
 
-    <section>
-        <div>
-            <h2>
+    <section class="mainArea paddingBox">
+        <div class="homeArea">
+            <h2 class="paddingBox2">
                 전세계 전문 용어<br/>
                 통역, 번역 디스플레이
             </h2>
@@ -28,10 +36,10 @@
                 <figcaption>
                     Technilogies driven by
                 </figcaption>
-                <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
+                <img src="images/LGDisply_logo_kr.png" alt="LG디스플레이">
             </figure>
             <div class="imgBox">
-                LG display barrot
+                LG display barrot protuct img
             </div>
             <p>
                 전세계 언어 걱정 없이
@@ -41,7 +49,7 @@
             </p>
         </div>
 
-        <div class="">
+        <div class="introduceArea paddingBox2">
             <h3>
                 AI 인공지능 다국어 전문 통번역<br/>
                 언제 어디서나 자유로운 글로벌 언어 소통
@@ -60,53 +68,115 @@
             </p>
         </div>
 
-        <div>
-            <h3>
+        <div class="evolutionArea">
+            <h3 class="paddingBox2">
                 다국어 전문 용어 AI 번역 디스플레이<br/>
                 시스템의 진화
             </h3>
-            <ul>
-                <li>
-                    <strong>Realtime</strong>
-                    <p>
-                        전세계 103개 언어
-                        실시간 통역
-                    </p>
-                </li>
-                <li>
-                    <strong>Accuracy</strong>
-                    <p>전문용어 인식
-                        번역률 99%</p>
-                </li>
-                <li>
-                    <strong>Security</strong>
-                    <p>정보 유출 방지 및
-                        완벽한 데이터 보안 </p>
-                </li>
-                <li>
-                    <strong>
-                        LG Display
-                        Technology
-                    </strong>
-                    <p>
-                        넓은 시야각, 선명한 문자 화질, 
-                        우수한 In-Touch기술
-                    </p>
-                </li>
-            </ul>
+            <div>
+                <ul>
+                    <li>
+                        <strong>Realtime</strong>
+                        <p>
+                            전세계 103개 언어<br/>
+                            실시간 통역
+                        </p>
+                    </li>
+                    <li>
+                        <strong>Accuracy</strong>
+                        <p>
+                            전문용어 인식<br/>
+                            번역률 99%
+                        </p>
+                    </li>
+                    <li>
+                        <strong>Security</strong>
+                        <p>
+                            정보 유출 방지 및<br/>
+                            완벽한 데이터 보안 
+                        </p>
+                    </li>
+                    <li>
+                        <strong>
+                            LG Display
+                            Technology
+                        </strong>
+                        <p>
+                            넓은 시야각, 선명한 문자 화질,<br/>
+                            우수한 In-Touch기술
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <section>
-        <h3>Function
+    <section class="functionArea">
+        <h3 class="paddingBox3">Function
             <small>Barrot은  다양한 환경에서 사용 가능합니다</small>
         </h3>
+        <div class="slider">
+            <div>
+                <b>For Business</b>
+                <p>
+                    다자간 / 다양한 언어로 회의 지원 가능<br/>
+                    회의록 자동 작성 <br/>
+                    High level 보안
+                </p>
+                <figure class="LGLogoBox">
+                    <figcaption>
+                        Technilogies driven by
+                    </figcaption>
+                    <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
+                </figure>
+            </div>
+            <div>
+                <b>For Business</b>
+                <p>
+                    다자간 / 다양한 언어로 회의 지원 가능<br/>
+                    회의록 자동 작성 <br/>
+                    High level 보안
+                </p>
+                <figure class="LGLogoBox">
+                    <figcaption>
+                        Technilogies driven by
+                    </figcaption>
+                    <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
+                </figure>
+            </div>
+            <div>
+                <b>For Business</b>
+                <p>
+                    다자간 / 다양한 언어로 회의 지원 가능<br/>
+                    회의록 자동 작성 <br/>
+                    High level 보안
+                </p>
+                <figure class="LGLogoBox">
+                    <figcaption>
+                        Technilogies driven by
+                    </figcaption>
+                    <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
+                </figure>
+            </div>
+        </div>
     </section>
 
-    <section>
+    <section class="productArea paddingBox3">
         <h3>Product
             <small>최적의 사양과 놀라운 편이성 그리고 최고의 보안</small>
         </h3>
+        <div>
+            
+        </div>
+        <div class="slider">
+            <div>
+                <p>
+                    실시간 나라별 음성인식 및 번역, 최단기 특화된 모델로 전문용어 학습<br/>
+                    최대 103개국 언어및 사투리 억양 인지 
+                </p>
+                <img src="images/product_img01.png" alt="제품 이미지">
+            </div>
+        </div>
     </section>
 
     <section>
@@ -114,7 +184,7 @@
             <h3>Specification</h3>
             <ul>
                 <li><button>단면 Barrot</button></li>
-                <li><button>양면  Barrot</button></li>
+                <li><button>양면 Barrot</button></li>
             </ul>
             <img src="" alt="">
             <h4>
