@@ -61,3 +61,27 @@
 .productArea .thumbPager li a.active{text-indent: 0; width: auto; height: auto; padding: 30px 55px; border-radius: 100px;}
 .productArea .slider img{margin: 0 auto;}
 .productArea .slider p{font-size: 32px; font-weight: 600; line-height: 56px; position: absolute; left: 0; top: 70px;}
+
+
+.SpeciArea{background-color: #ededed;}
+.SpeciArea > div{}
+.SpeciArea > div h3{margin-bottom: 60px;}
+.SpeciArea > div .tabBtn{display: flex; margin-bottom: 155px;}
+.SpeciArea > div .tabBtn button:not(:last-child){margin-right: 30px;}
+.SpeciArea > div .tabBtn button{width: 290px; height: 95px; display: flex; justify-content: center; align-items: center; font-size: 30px; font-weight: 700; color: white; background-color: #7e7e7e; border-radius: 100px;}
+.SpeciArea > div .tabBtn button.active{background-color: #0022cc;}
+.SpeciArea > div > img{display: block; max-width: 100%; margin: 0 auto 205px;}
+.SpeciArea > div table{}
+.SpeciArea > div table caption{text-align: left; font-size: 49px; font-weight: 700; margin-bottom: 60px;}
+.SpeciArea > div table tbody{width: 100%;}
+.SpeciArea > div table tr{width: 100%; text-align: left;}
+.SpeciArea > div table tr *{font-size: 24px; line-height: 38px;}
+.SpeciArea > div table tr th:first-child{width: 385px; font-weight: 700;}
+.SpeciArea > div table tr > *:nth-child(n + 2){padding-left: 45px; padding-right: 45px; box-sizing: border-box;}
+.SpeciArea > div table thead{border-top: 3px solid black;}
+.SpeciArea > div table thead th img{display: block; max-width: 100%;}
+.SpeciArea > div table thead tr > *{padding-top: 40px; padding-bottom: 65px;}
+.SpeciArea > div table tbody tr{border-top: 1px solid black;}
+.SpeciArea > div table tbody tr > *{padding-top: 20px; padding-bottom: 20px;}
+.SpeciArea > div table tr .active{opacity: 1;}
+.SpeciArea > div table tr > *{opacity: 0.3;}
