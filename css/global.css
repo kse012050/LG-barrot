@@ -1,42 +1,90 @@
-/* 컨텐츠 크기 */
-/* .width1800{max-width: 1800px; margin: 0 auto; } */
-.paddingBox{padding-left: 60px; padding-right: 60px; box-sizing: border-box;}
-.paddingBox2{padding-left: 73px; padding-right: 73px; box-sizing: border-box;}
-.paddingBox3{padding-left: 133px; padding-right: 133px; box-sizing: border-box;}
+@media screen and (max-width:720px) {
+    html{font-size: 2.2222vw;}
 
-/* LG logo box */
-.LGLogoBox figcaption{font-size: 24px; color: white; font-weight: 500; margin-bottom: 15px;}
+    /* 컨텐츠 크기 */
+    [class*="paddingBox"]{padding-left: 3.750rem; padding-right: 3.750rem; box-sizing: border-box;}
 
-/* img box */
-.imgBox{background-repeat: no-repeat; background-position: center; background-size: cover;}
+    /* LG logo box */
+    .LGLogoBox figcaption{font-size: 1.125rem; color: white; font-weight: 500; margin-bottom: 0.625rem;}
 
-body > section{padding-top: 150px; padding-bottom: 150px;}
-body > section h3{font-size: 69px; font-weight: 700;}
-body > section h3 small{display: block; font-size: 30px; font-weight: 500; margin-top: 30px;}
+    /* img box */
+    .imgBox{background-repeat: no-repeat; background-position: center; background-size: cover;}
 
-/* bxslider 초기화 */
-.bx-wrapper{box-shadow: none; border: none; margin-bottom: 0;}
+    body > section{padding-top: 3.750rem; padding-bottom: 3.750rem;}
+    body > section h3{font-size: 2.625rem; font-weight: 700;}
+    body > section h3 small{display: block; font-size: 1.500rem; font-weight: 500; margin-top: 1.250rem;}
 
-
-header{position: fixed; left: 0; top: 0; width: 100%; padding: 55px 60px 0; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; z-index: 100;}
-header h1{max-width: 133px;}
-header h1 a{display: block;}
-header h1 a img{width: 100%;}
-header button{width: 86px; height: 86px; background-color: #0022cc; border-radius: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;}
-header button span{width: 25px; height: 3px; background-color: white;}
-header button span:not(:last-child){margin-bottom: 10px;}
-header button span:nth-child(1){margin-right: 5px;}
-header button span:nth-child(2){margin-left: 5px;}
+    /* bxslider 초기화 */
+    .bx-wrapper{box-shadow: none; border: none; margin-bottom: 0;}
 
 
-footer{padding: 130px 133px; background-color: #1d1d1d; display: flex; justify-content: center; position: relative;}
-footer div{position: absolute; padding: inherit; left: 0; top: 0; width: 100%; height: 100%; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; pointer-events: none;}
-footer div img:nth-of-type(1){width: 133px;}
-footer div img:nth-of-type(2){width: 208px;}
-footer address{font-style: normal;}
-footer address *{font-size: 32px; color: white; line-height: 56px;}
-footer address > :is(a , dl) dt{font-weight: 700;}
-footer address > *:not(:last-child){margin-bottom: 70px;}
-footer address dl{display: flex;}
-footer address dl dt{width: 130px;}
-footer address > p{font-size: 24px; opacity: 0.3;}
+    header{position: fixed; left: 0; top: 0; width: 100%; padding: 1.875rem 3.750rem 0; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; z-index: 100;}
+    header h1{max-width: 5.000rem;}
+    header h1 a{display: block;}
+    header h1 a img{width: 100%;}
+    header button{width: 4.375rem; height: 4.375rem; background-color: #0022cc; border-radius: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    header button span{width: 1.250rem; height: 0.188rem; background-color: white;}
+    header button span:not(:last-child){margin-bottom: 0.625rem;}
+    header button span:nth-child(1){margin-right: 0.313rem;}
+    header button span:nth-child(2){margin-left: 0.313rem;}
+
+
+    footer{padding: 1.875rem 3.750rem; background-color: #1d1d1d; display: flex; justify-content: space-between; align-items: center; position: relative;}
+    footer div{margin-bottom: 4.688rem;}
+    footer div img{display: block;}
+    footer div img:nth-of-type(1){width: 4.375rem; margin-bottom: 1.875rem;}
+    footer div img:nth-of-type(2){width: 5.313rem;}
+    footer address{font-style: normal;}
+    footer address *{font-size: 1.125rem; color: white; line-height: 2.250rem;}
+    footer address > :is(a , dl) dt{font-weight: 700;}
+    footer address > *:not(:last-child){margin-bottom: 2.500rem;}
+    footer address dl{display: flex;}
+    footer address dl dt{width: 4.688rem;}
+    footer address > p{font-size: 0.688rem; opacity: 0.3;}
+}
+
+@media screen and (min-width:721px) {
+    html{font-size: 0.83333vw;}
+
+    /* 컨텐츠 크기 */
+    .paddingBox{padding-left: 3.750rem; padding-right: 3.750rem; box-sizing: border-box;}
+    .paddingBox2{padding-left: 4.563rem; padding-right: 4.563rem; box-sizing: border-box;}
+    .paddingBox3{padding-left: 8.313rem; padding-right: 8.313rem; box-sizing: border-box;}
+
+    /* LG logo box */
+    .LGLogoBox figcaption{font-size: 1.500rem; color: white; font-weight: 500; margin-bottom: 0.938rem;}
+
+    /* img box */
+    .imgBox{background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+    body > section{padding-top: 9.375rem; padding-bottom: 9.375rem;}
+    body > section h3{font-size: 4.313rem; font-weight: 700;}
+    body > section h3 small{display: block; font-size: 1.875rem; font-weight: 500; margin-top: 1.875rem;}
+
+    /* bxslider 초기화 */
+    .bx-wrapper{box-shadow: none; border: none; margin-bottom: 0;}
+
+
+    header{position: fixed; left: 0; top: 0; width: 100%; padding: 3.438rem 3.750rem 0; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; z-index: 100;}
+    header h1{max-width: 8.313rem;}
+    header h1 a{display: block;}
+    header h1 a img{width: 100%;}
+    header button{width: 5.375rem; height: 5.375rem; background-color: #0022cc; border-radius: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    header button span{width: 1.563rem; height: 0.188rem; background-color: white;}
+    header button span:not(:last-child){margin-bottom: 0.625rem;}
+    header button span:nth-child(1){margin-right: 0.313rem;}
+    header button span:nth-child(2){margin-left: 0.313rem;}
+
+
+    footer{padding: 8.125rem 8.313rem; background-color: #1d1d1d; display: flex; justify-content: center; position: relative;}
+    footer div{position: absolute; padding: inherit; left: 0; top: 0; width: 100%; height: 100%; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box; pointer-events: none;}
+    footer div img:nth-of-type(1){width: 8.313rem;}
+    footer div img:nth-of-type(2){width: 13.000rem;}
+    footer address{font-style: normal;}
+    footer address *{font-size: 2.000rem; color: white; line-height: 3.500rem;}
+    footer address > :is(a , dl) dt{font-weight: 700;}
+    footer address > *:not(:last-child){margin-bottom: 4.375rem;}
+    footer address dl{display: flex;}
+    footer address dl dt{width: 8.125rem;}
+    footer address > p{font-size: 1.500rem; opacity: 0.3;}
+}

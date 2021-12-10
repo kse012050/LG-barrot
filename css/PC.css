@@ -54,6 +54,7 @@ footer address > p{font-size: 1.500rem; opacity: 0.3;}
 .mainArea .homeArea{position: relative; padding-bottom: 21.250rem;}
 .mainArea .homeArea h2{font-size: 5.875rem; font-weight: 700; color: #cccccc; line-height: 7.000rem;  margin-bottom: 63.61vw; position: relative; z-index: 2;}
 .mainArea .homeArea .LGLogoBox{position: absolute; right: 9.188rem; top: 6.250rem; text-align: right;}
+.mainArea .homeArea .LGLogoBox img{width: 9.375rem;}
 .mainArea .homeArea p{font-size: 5.000rem; font-weight: 700; color: white; line-height: 6.688rem; max-width: 49.688rem; margin-left: auto; position: relative; z-index: 2;}
 .mainArea .homeArea p small{display: block; font-size: 2.000rem; font-weight: 300; color: rgba(255, 255, 255, 0.2); line-height: 1; margin-top: 3.125rem;}
 .mainArea > .imgBox{position: absolute; top: 68.750rem; right: 0; width: 95%; z-index: 1;}
@@ -93,6 +94,7 @@ footer address > p{font-size: 1.500rem; opacity: 0.3;}
 .functionArea .bx-wrapper .bx-viewport .slider > div b{display: flex; align-items: center; font-weight: 600; margin-bottom: 3.125rem;}
 .functionArea .bx-wrapper .bx-viewport .slider > div b::before{content: ''; width: 10px; height: 10px; background-color: #0022cc; border-radius: 100%; margin-right: 12px;}
 .functionArea .bx-wrapper .bx-viewport .slider > div p{font-weight: 700; line-height: 3.250rem; margin-bottom: 5.625rem;}
+.functionArea .bx-wrapper .bx-viewport .slider > div .LGLogoBox img{width: 7.188rem;}
 .functionArea .bx-wrapper .bx-viewport .slider > div[aria-hidden="false"]{opacity: 1;}
 
 
