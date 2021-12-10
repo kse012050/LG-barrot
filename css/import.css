@@ -4,5 +4,7 @@
 /*  poppins */
 
 @import url('reset.css');
-@import url('global.css');
-@import url('page.css');
+/* @import url('global.css');
+@import url('page.css');  */
+/* @import url('PC.css'); */
+@import url('MOBILE.css');
