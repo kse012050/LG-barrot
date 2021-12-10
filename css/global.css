@@ -8,7 +8,7 @@
     .LGLogoBox figcaption{font-size: 1.125rem; color: white; font-weight: 500; margin-bottom: 0.625rem;}
 
     /* img box */
-    .imgBox{background-repeat: no-repeat; background-position: center; background-size: cover;}
+    .imgBox{text-indent: -9999px; background-repeat: no-repeat; background-position: center; background-size: cover;}
 
     body > section{padding-top: 3.750rem; padding-bottom: 3.750rem;}
     body > section h3{font-size: 2.625rem; font-weight: 700;}
@@ -55,7 +55,7 @@
     .LGLogoBox figcaption{font-size: 1.500rem; color: white; font-weight: 500; margin-bottom: 0.938rem;}
 
     /* img box */
-    .imgBox{background-repeat: no-repeat; background-position: center; background-size: cover;}
+    .imgBox{text-indent: -9999px; background-repeat: no-repeat; background-position: center; background-size: cover;}
 
     body > section{padding-top: 9.375rem; padding-bottom: 9.375rem;}
     body > section h3{font-size: 4.313rem; font-weight: 700;}
@@ -88,3 +88,4 @@
     footer address dl dt{width: 8.125rem;}
     footer address > p{font-size: 1.500rem; opacity: 0.3;}
 }
+

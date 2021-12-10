@@ -20,4 +20,24 @@ $(document).ready(function(){
         $('.SpeciArea table tr > *').removeClass('active');
         $('.SpeciArea table tr > *:nth-child('+ ($(this).index() + 2) +')').addClass('active');
     })
+
+    $(window).scroll(function(){
+        if($(window).scrollTop() > $('[data-scrollEvent="mainProduct"]').offset().top){
+            $('[data-scrollEvent="mainProduct"]').addClass('scrollEvent');
+            $('.mainArea').addClass('scrollEvent');
+            $('.mainArea .homeArea p').addClass('scrollEvent');
+        }
+
+        $('[data-scrollEvent="leftArea"]').children('*').each(function(){
+            $(this).css({
+                'transition-delay': $(this).index() / 4 + 's'
+            });
+        });
+
+        $('[data-scrollEvent]:not([data-scrollEvent="mainProduct"])').each(function(){
+            if($(window).scrollTop() > $(this).offset().top - $(window).height() / 1.3){
+                $(this).addClass('scrollEvent');
+            }
+        })
+    })
 });
