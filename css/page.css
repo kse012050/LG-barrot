@@ -75,7 +75,7 @@
     .speciArea > div .tabBtn button:not(:last-child){margin-right: 0.625rem;}
     .speciArea > div .tabBtn button{width: 14.688rem; height: 4.688rem; display: flex; justify-content: center; align-items: center; font-size: 1.625rem; font-weight: 700; color: white; background-color: #7e7e7e; border-radius: 6.250rem;}
     .speciArea > div .tabBtn button.active{background-color: #0022cc;}
-    .speciArea > div .tabImg > img{display: none; max-width: 100%; margin: 0 auto 8.750rem;}
+    .speciArea > div .tabImg > img{display: none; max-width: 100%; width: 79.750rem; margin: 0 auto 8.750rem;}
     .speciArea > div .tabImg > img.active{display: block;}
     .speciArea > div table caption{text-align: left; font-size: 2.250rem; font-weight: 700; margin-bottom: 1.250rem;}
     .speciArea > div table tbody{width: 100%;}
