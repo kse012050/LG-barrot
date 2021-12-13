@@ -177,7 +177,7 @@
     .speciArea > div table tr{width: 100%; text-align: left;}
     .speciArea > div table tr *{font-size: 1.500rem; line-height: 2.375rem;}
     .speciArea > div table tr th:first-child{width: 24.063rem; font-weight: 700;}
-    .speciArea > div table tr > *:nth-child(n + 2){padding-left: 2.813rem; padding-right: 2.813rem; box-sizing: border-box;}
+    .speciArea > div table tr > *:nth-child(n + 2){width: 40.000rem; padding-left: 2.813rem; padding-right: 2.813rem; box-sizing: border-box;}
     .speciArea > div table thead{border-top: 0.188rem solid black;}
     .speciArea > div table thead th img{display: block; max-width: 100%;}
     .speciArea > div table thead tr > *{padding-top: 2.500rem; padding-bottom: 4.063rem;}
