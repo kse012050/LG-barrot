@@ -18,7 +18,8 @@
     .bx-wrapper{box-shadow: none; border: none; margin-bottom: 0;}
 
 
-    header{position: fixed; left: 0; top: 0; width: 100%; padding: 1.875rem 3.750rem 0; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; z-index: 100; pointer-events: none;}
+    header{position: fixed; left: 0; top: 0; width: 100%; padding: 1.875rem 3.750rem; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; z-index: 100; pointer-events: none;}
+    header.active{background-color: white; box-shadow: 0.625rem -3.438rem 5.313rem black;}
     header h1{max-width: 5.000rem;}
     header h1 a{display: block;}
     header h1 a img{width: 100%;}
@@ -83,7 +84,8 @@
     .bx-wrapper{box-shadow: none; border: none; margin-bottom: 0;}
 
 
-    header{position: fixed; left: 0; top: 0; width: 100%; padding: 3.438rem 3.750rem 0; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; z-index: 100; pointer-events: none;}
+    header{position: fixed; left: 0; top: 0; width: 100%; padding: 3.438rem 3.750rem; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; z-index: 100; pointer-events: none; transition: 0.5s background-color;}
+    header.active{background-color: white; box-shadow: 0.625rem -3.438rem 5.313rem black;}
     header h1{max-width: 8.313rem;}
     header h1 a{display: block;}
     header h1 a img{width: 100%;}

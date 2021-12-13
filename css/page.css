@@ -1,42 +1,42 @@
 @media screen and (max-width:720px) {
-    .mainArea h3{font-size: 2.250rem; font-weight: 700; color: white; line-height: 2.500rem; margin-bottom: 3.125rem;}
-    .mainArea [class*="paddingBox"]{padding: 0;}
+    .barrotPage .mainArea h3{font-size: 2.250rem; font-weight: 700; color: white; line-height: 2.500rem; margin-bottom: 3.125rem;}
+    .barrotPage .mainArea [class*="paddingBox"]{padding: 0;}
 
-    .mainArea{padding-top: 10.000rem; padding-bottom: 2rem; background-color: #1d1d1d; position: relative;}
-    .mainArea::before{content: ''; position: absolute; left: 0; top: 16.250rem; width: 100%; height: 27.813rem; background: url('../images/BG01.png') no-repeat center / cover; z-index: 1;}
-    .mainArea::after{content: ''; position: absolute; left: 0; top: 33.750rem; width: 100%; height: 36.125rem; background: url('../images/m_BG02.png') no-repeat center / cover;}
+    .barrotPage .mainArea{padding-top: 10.000rem; padding-bottom: 2rem; background-color: #1d1d1d; position: relative;}
+    .barrotPage .mainArea::before{content: ''; position: absolute; left: 0; top: 16.250rem; width: 100%; height: 27.813rem; background: url('../images/BG01.png') no-repeat center / cover; z-index: 1;}
+    .barrotPage .mainArea::after{content: ''; position: absolute; left: 0; top: 33.750rem; width: 100%; height: 36.125rem; background: url('../images/m_BG02.png') no-repeat center / cover;}
 
-    .mainArea .homeArea{position: relative; padding-bottom: 6.250rem;}
-    .mainArea .homeArea h2{font-size: 3.250rem; font-weight: 700; color: #cccccc; line-height: 3.750rem; margin-bottom: 43.125rem; position: relative; z-index: 2;}
-    .mainArea .homeArea .LGLogoBox{margin-bottom: 2.500rem;}
-    .mainArea .homeArea .LGLogoBox img{width: 9.063rem;}
-    .mainArea .homeArea p{font-size: 2.625rem; font-weight: 700; color: white; line-height: 3.125rem; max-width: 25.000rem; position: relative; z-index: 2;}
-    .mainArea .homeArea p small{display: block; font-size: 1.625rem; font-weight: 300; color: rgba(255, 255, 255, 0.2); line-height: 1; margin-top: 2.188rem; white-space: nowrap;}
-    .mainArea > .imgArea{position: absolute; top: 30.313rem; right: 0; width: 95%; z-index: 1;}
-    .mainArea > .imgArea img{width: 100%;}
+    .barrotPage .mainArea .homeArea{position: relative; padding-bottom: 6.250rem;}
+    .barrotPage .mainArea .homeArea h2{font-size: 3.250rem; font-weight: 700; color: #cccccc; line-height: 3.750rem; margin-bottom: 43.125rem; position: relative; z-index: 2;}
+    .barrotPage .mainArea .homeArea .LGLogoBox{margin-bottom: 2.500rem;}
+    .barrotPage .mainArea .homeArea .LGLogoBox img{width: 9.063rem;}
+    .barrotPage .mainArea .homeArea p{font-size: 2.625rem; font-weight: 700; color: white; line-height: 3.125rem; max-width: 25.000rem; position: relative; z-index: 2;}
+    .barrotPage .mainArea .homeArea p small{display: block; font-size: 1.625rem; font-weight: 300; color: rgba(255, 255, 255, 0.2); line-height: 1; margin-top: 2.188rem; white-space: nowrap;}
+    .barrotPage .mainArea > .imgArea{position: absolute; top: 30.313rem; right: 0; width: 95%; z-index: 1;}
+    .barrotPage .mainArea > .imgArea img{width: 100%;}
 
-    .mainArea .introduceArea{margin-bottom: 7.500rem;}
-    .mainArea .introduceArea ul{display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 2.500rem;}
-    .mainArea .introduceArea ul li{width: 48.3%; font-size: 1.500rem; color: white;  padding-top: 12.500rem; text-align: center; background-repeat: no-repeat; background-position: left top; background-size: 100%;}
-    .mainArea .introduceArea ul li:not(:nth-child(-n + 2)){margin-top: 2.188rem;}
-    .mainArea .introduceArea ul li:nth-child(1){background-image: url('../images/introduceImg01.png');}
-    .mainArea .introduceArea ul li:nth-child(2){background-image: url('../images/introduceImg02.png');}
-    .mainArea .introduceArea ul li:nth-child(3){background-image: url('../images/introduceImg03.png');}
-    .mainArea .introduceArea ul li:nth-child(4){background-image: url('../images/introduceImg04.png');}
-    .mainArea .introduceArea p{font-family: 'NanumSquare'; font-size: 1.625rem; font-weight: 700; color: rgba(130, 130, 130, 0.6); line-height: 2rem; margin-bottom: 7.500rem;}
-    .mainArea .introduceArea p b{font-weight: 800;}
+    .barrotPage .mainArea .introduceArea{margin-bottom: 7.500rem;}
+    .barrotPage .mainArea .introduceArea ul{display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 2.500rem;}
+    .barrotPage .mainArea .introduceArea ul li{width: 48.3%; font-size: 1.500rem; color: white;  padding-top: 12.500rem; text-align: center; background-repeat: no-repeat; background-position: left top; background-size: 100%;}
+    .barrotPage .mainArea .introduceArea ul li:not(:nth-child(-n + 2)){margin-top: 2.188rem;}
+    .barrotPage .mainArea .introduceArea ul li:nth-child(1){background-image: url('../images/introduceImg01.png');}
+    .barrotPage .mainArea .introduceArea ul li:nth-child(2){background-image: url('../images/introduceImg02.png');}
+    .barrotPage .mainArea .introduceArea ul li:nth-child(3){background-image: url('../images/introduceImg03.png');}
+    .barrotPage .mainArea .introduceArea ul li:nth-child(4){background-image: url('../images/introduceImg04.png');}
+    .barrotPage .mainArea .introduceArea p{font-family: 'NanumSquare'; font-size: 1.625rem; font-weight: 700; color: rgba(130, 130, 130, 0.6); line-height: 2rem; margin-bottom: 7.500rem;}
+    .barrotPage .mainArea .introduceArea p b{font-weight: 800;}
 
-    .mainArea .evolutionArea h3{position: relative; z-index: 2;}
-    .mainArea .evolutionArea div ul{display: flex; flex-wrap: wrap;}
-    .mainArea .evolutionArea div ul li{width: 50%; height: 18.750rem; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; position: relative;}
-    .mainArea .evolutionArea div ul li::before{content: ''; position: absolute; left: 50%; top: 50%; width: 20.000rem; height: 20.000rem; border-radius: 100%; transform: translate(-50%,-50%); background-color: rgba(0, 34, 204, 0.95);}
-    .mainArea .evolutionArea div ul li:nth-child(n + 2):nth-child(-n + 3)::before{background-color: rgba(0, 34, 204, 0.6);}
-    .mainArea .evolutionArea div ul li *{position: relative; z-index: 2;}
-    .mainArea .evolutionArea div ul li strong{font-size: 1.875rem; font-weight: 700; line-height: 2.188rem; display: flex; justify-content: center; align-items: center; margin-bottom: 2.188rem;}
-    .mainArea .evolutionArea div ul li strong mark{color: #c01d3f;}
-    .mainArea .evolutionArea div ul li p{font-size: 1.500rem; line-height: 2.125rem;}
-    .mainArea .evolutionArea div > .imgBox{position: absolute; bottom: -4.063rem; left: 0; width: 95%; height: 36.875rem; background-image: url('../images/m_productImg02.png'); z-index: 1; }
-    /* .mainArea .evolutionArea div > .imgBox img{width: 100%;} */
+    .barrotPage .mainArea .evolutionArea h3{position: relative; z-index: 2;}
+    .barrotPage .mainArea .evolutionArea div ul{display: flex; flex-wrap: wrap;}
+    .barrotPage .mainArea .evolutionArea div ul li{width: 50%; height: 18.750rem; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; position: relative;}
+    .barrotPage .mainArea .evolutionArea div ul li::before{content: ''; position: absolute; left: 50%; top: 50%; width: 20.000rem; height: 20.000rem; border-radius: 100%; transform: translate(-50%,-50%); background-color: rgba(0, 34, 204, 0.95);}
+    .barrotPage .mainArea .evolutionArea div ul li:nth-child(n + 2):nth-child(-n + 3)::before{background-color: rgba(0, 34, 204, 0.6);}
+    .barrotPage .mainArea .evolutionArea div ul li *{position: relative; z-index: 2;}
+    .barrotPage .mainArea .evolutionArea div ul li strong{font-size: 1.875rem; font-weight: 700; line-height: 2.188rem; display: flex; justify-content: center; align-items: center; margin-bottom: 2.188rem;}
+    .barrotPage .mainArea .evolutionArea div ul li strong mark{color: #c01d3f;}
+    .barrotPage .mainArea .evolutionArea div ul li p{font-size: 1.500rem; line-height: 2.125rem;}
+    .barrotPage .mainArea .evolutionArea div > .imgBox{position: absolute; bottom: -4.063rem; left: 0; width: 95%; height: 36.875rem; background-image: url('../images/m_productImg02.png'); z-index: 1; }
+    /* .barrotPage .mainArea .evolutionArea div > .imgBox img{width: 100%;} */
 
 
 
@@ -92,44 +92,44 @@
 }
 
 @media screen and (min-width:721px) {
-    .mainArea h3{font-size: 4.063rem; font-weight: 700; color: white; line-height: 5.250rem; margin-bottom: 6.250rem;}
+    .barrotPage .mainArea h3{font-size: 4.063rem; font-weight: 700; color: white; line-height: 5.250rem; margin-bottom: 6.250rem;}
 
-    .mainArea{padding-top: 16.250rem; padding-bottom: 16.250rem; background-color: #1d1d1d; position: relative;}
-    .mainArea::before{content: ''; position: absolute; left: 0; top: 28.750rem; width: calc(100% - 3.750rem); max-width: 107.063rem; height: 63.438rem; background: url('../images/BG01.png') no-repeat center / cover; z-index: 1;}
-    .mainArea::after{content: ''; position: absolute; left: 0; top: 74.063rem; width: 100%; height: 91.250rem; background: url('../images/BG02.png') no-repeat center / cover;}
+    .barrotPage .mainArea{padding-top: 16.250rem; padding-bottom: 16.250rem; background-color: #1d1d1d; position: relative;}
+    .barrotPage .mainArea::before{content: ''; position: absolute; left: 0; top: 28.750rem; width: calc(100% - 3.750rem); max-width: 107.063rem; height: 63.438rem; background: url('../images/BG01.png') no-repeat center / cover; z-index: 1;}
+    .barrotPage .mainArea::after{content: ''; position: absolute; left: 0; top: 74.063rem; width: 100%; height: 91.250rem; background: url('../images/BG02.png') no-repeat center / cover;}
 
-    .mainArea .homeArea{position: relative; padding-bottom: 21.250rem;}
-    .mainArea .homeArea h2{font-size: 5.875rem; font-weight: 700; color: #cccccc; line-height: 7.000rem;  margin-bottom: 63.61vw; position: relative; z-index: 2;}
-    .mainArea .homeArea .LGLogoBox{position: absolute; right: 9.188rem; top: 6.250rem; text-align: right;}
-    .mainArea .homeArea .LGLogoBox img{width: 9.375rem;}
-    .mainArea .homeArea p{font-size: 5.000rem; font-weight: 700; color: white; line-height: 6.688rem; max-width: 49.688rem; margin-left: auto; position: relative; z-index: 2;}
-    .mainArea .homeArea p small{display: block; font-size: 2.000rem; font-weight: 300; color: rgba(255, 255, 255, 0.2); line-height: 1; margin-top: 3.125rem;}
-    .mainArea > .imgArea{position: absolute; top: 68.750rem; right: 0; width: 95%; z-index: 1;}
-    .mainArea > .imgArea img{width: 100%;}
+    .barrotPage .mainArea .homeArea{position: relative; padding-bottom: 21.250rem;}
+    .barrotPage .mainArea .homeArea h2{font-size: 5.875rem; font-weight: 700; color: #cccccc; line-height: 7.000rem;  margin-bottom: 63.61vw; position: relative; z-index: 2;}
+    .barrotPage .mainArea .homeArea .LGLogoBox{position: absolute; right: 9.188rem; top: 6.250rem; text-align: right;}
+    .barrotPage .mainArea .homeArea .LGLogoBox img{width: 9.375rem;}
+    .barrotPage .mainArea .homeArea p{font-size: 5.000rem; font-weight: 700; color: white; line-height: 6.688rem; max-width: 49.688rem; margin-left: auto; position: relative; z-index: 2;}
+    .barrotPage .mainArea .homeArea p small{display: block; font-size: 2.000rem; font-weight: 300; color: rgba(255, 255, 255, 0.2); line-height: 1; margin-top: 3.125rem;}
+    .barrotPage .mainArea > .imgArea{position: absolute; top: 68.750rem; right: 0; width: 95%; z-index: 1;}
+    .barrotPage .mainArea > .imgArea img{width: 100%;}
 
-    .mainArea .introduceArea{margin-bottom: 15.000rem;}
-    .mainArea .introduceArea ul{display: flex; justify-content: space-between; margin-bottom: 4.688rem;}
-    .mainArea .introduceArea ul li{width: 22.5%; font-size: 1.875rem; color: white; padding-top: 17%; background-repeat: no-repeat; background-position: left top; background-size: 100%;}
-    .mainArea .introduceArea ul li:nth-child(1){background-image: url('../images/introduceImg01.png');}
-    .mainArea .introduceArea ul li:nth-child(2){background-image: url('../images/introduceImg02.png');}
-    .mainArea .introduceArea ul li:nth-child(3){background-image: url('../images/introduceImg03.png');}
-    .mainArea .introduceArea ul li:nth-child(4){background-image: url('../images/introduceImg04.png');}
-    .mainArea .introduceArea p{font-family: 'NanumSquare'; font-size: 2.000rem; font-weight: 700; color: rgba(130, 130, 130, 0.6); line-height: 4.188rem;}
-    .mainArea .introduceArea p b{font-weight: 800;}
+    .barrotPage .mainArea .introduceArea{margin-bottom: 15.000rem;}
+    .barrotPage .mainArea .introduceArea ul{display: flex; justify-content: space-between; margin-bottom: 4.688rem;}
+    .barrotPage .mainArea .introduceArea ul li{width: 22.5%; font-size: 1.875rem; color: white; padding-top: 17%; background-repeat: no-repeat; background-position: left top; background-size: 100%;}
+    .barrotPage .mainArea .introduceArea ul li:nth-child(1){background-image: url('../images/introduceImg01.png');}
+    .barrotPage .mainArea .introduceArea ul li:nth-child(2){background-image: url('../images/introduceImg02.png');}
+    .barrotPage .mainArea .introduceArea ul li:nth-child(3){background-image: url('../images/introduceImg03.png');}
+    .barrotPage .mainArea .introduceArea ul li:nth-child(4){background-image: url('../images/introduceImg04.png');}
+    .barrotPage .mainArea .introduceArea p{font-family: 'NanumSquare'; font-size: 2.000rem; font-weight: 700; color: rgba(130, 130, 130, 0.6); line-height: 4.188rem;}
+    .barrotPage .mainArea .introduceArea p b{font-weight: 800;}
 
-    .mainArea .evolutionArea h3{position: relative; z-index: 2;}
-    .mainArea .evolutionArea div{max-width: 112.500rem; margin: 0 auto;}
-    .mainArea .evolutionArea div ul{display: flex; }
-    .mainArea .evolutionArea div ul li{flex: 1; height: 31.563rem; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; position: relative;}
-    .mainArea .evolutionArea div ul li::before{content: ''; position: absolute; left: 50%; top: 50%; width: 31.563rem; height: 31.563rem; border-radius: 100%; transform: translate(-50%,-50%); }
-    .mainArea .evolutionArea div ul li:nth-child(2n + 1):before{background-color: rgba(0, 34, 204, 0.95);}
-    .mainArea .evolutionArea div ul li:nth-child(2n):before{background-color: rgba(0, 34, 204, 0.6);}
-    .mainArea .evolutionArea div ul li *{position: relative; z-index: 2;}
-    .mainArea .evolutionArea div ul li strong{height: 6.250rem; font-size: 3.000rem; font-weight: 700; line-height: 3.125rem; display: flex; justify-content: center; align-items: center; margin-bottom: 4.688rem;}
-    .mainArea .evolutionArea div ul li strong mark{color: #c01d3f;}
-    .mainArea .evolutionArea div ul li p{font-size: 1.875rem; line-height: 2.125rem;}
-    .mainArea .evolutionArea div > .imgBox{position: absolute; bottom: -9.063rem; left: 0; width: 95%; height: 90.000rem; background-image: url('../images/productImg02.png'); z-index: 1; }
-    /* .mainArea .evolutionArea div > .imgBox img{width: 100%;} */
+    .barrotPage .mainArea .evolutionArea h3{position: relative; z-index: 2;}
+    .barrotPage .mainArea .evolutionArea div{max-width: 112.500rem; margin: 0 auto;}
+    .barrotPage .mainArea .evolutionArea div ul{display: flex; }
+    .barrotPage .mainArea .evolutionArea div ul li{flex: 1; height: 31.563rem; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; position: relative;}
+    .barrotPage .mainArea .evolutionArea div ul li::before{content: ''; position: absolute; left: 50%; top: 50%; width: 31.563rem; height: 31.563rem; border-radius: 100%; transform: translate(-50%,-50%); }
+    .barrotPage .mainArea .evolutionArea div ul li:nth-child(2n + 1):before{background-color: rgba(0, 34, 204, 0.95);}
+    .barrotPage .mainArea .evolutionArea div ul li:nth-child(2n):before{background-color: rgba(0, 34, 204, 0.6);}
+    .barrotPage .mainArea .evolutionArea div ul li *{position: relative; z-index: 2;}
+    .barrotPage .mainArea .evolutionArea div ul li strong{height: 6.250rem; font-size: 3.000rem; font-weight: 700; line-height: 3.125rem; display: flex; justify-content: center; align-items: center; margin-bottom: 4.688rem;}
+    .barrotPage .mainArea .evolutionArea div ul li strong mark{color: #c01d3f;}
+    .barrotPage .mainArea .evolutionArea div ul li p{font-size: 1.875rem; line-height: 2.125rem;}
+    .barrotPage .mainArea .evolutionArea div > .imgBox{position: absolute; bottom: -9.063rem; left: 0; width: 95%; height: 90.000rem; background-image: url('../images/productImg02.png'); z-index: 1; }
+    /* .barrotPage .mainArea .evolutionArea div > .imgBox img{width: 100%;} */
 
 
 
@@ -188,9 +188,9 @@
 
 
     
-    .mainArea .homeArea h2{animation: opacityAni 0.5s forwards; opacity: 0;}
-    .mainArea .homeArea .LGLogoBox{animation: opacityAni 0.5s 0.8s forwards; opacity: 0;}
-    .mainArea::before{animation: mainImg01 0.5s 0.4s forwards; left: -100%;}
+    .barrotPage .mainArea .homeArea h2{animation: opacityAni 0.5s forwards; opacity: 0;}
+    .barrotPage .mainArea .homeArea .LGLogoBox{animation: opacityAni 0.5s 0.8s forwards; opacity: 0;}
+    .barrotPage .mainArea::before{animation: mainImg01 0.5s 0.4s forwards; left: -100%;}
     @keyframes opacityAni {
         0%{opacity: 0;}
         100%{opacity: 1;}
@@ -200,13 +200,13 @@
         100%{left: 0%;}
     }
 
-    .mainArea > .imgArea{overflow: hidden;}
-    .mainArea > .imgArea img{transform: translateX(100%) translateY(-45.000em); transition: 0.5s transform;}
-    .mainArea > .imgArea.scrollEvent img{transform: translateX(0%) translateY(0px);}
-    .mainArea::after{opacity: 0; transition: 0.5s 0.4s opacity;}
-    .mainArea.scrollEvent::after{opacity: 1;}
-    .mainArea .homeArea p{opacity: 0; transition: 0.5s 0.8s opacity;}
-    .mainArea .homeArea p.scrollEvent{opacity: 1;}
+    .barrotPage .mainArea > .imgArea{overflow: hidden;}
+    .barrotPage .mainArea > .imgArea img{transform: translateX(100%) translateY(-45.000em); transition: 0.5s transform;}
+    .barrotPage .mainArea > .imgArea.scrollEvent img{transform: translateX(0%) translateY(0px);}
+    .barrotPage .mainArea::after{opacity: 0; transition: 0.5s 0.4s opacity;}
+    .barrotPage .mainArea.scrollEvent::after{opacity: 1;}
+    .barrotPage .mainArea .homeArea p{opacity: 0; transition: 0.5s 0.8s opacity;}
+    .barrotPage .mainArea .homeArea p.scrollEvent{opacity: 1;}
 
     [data-scrollEvent="opacity"]{opacity: 0; transition: 0.5s opacity;}
     .slider[data-scrollEvent="opacity"]{transition-property: all;}
@@ -215,16 +215,16 @@
     [data-scrollEvent="leftArea"] li{transform: translateX(-100%); opacity:0; transition-duration: 0.5s; transition-property:  transform , opacity;;}
     [data-scrollEvent="leftArea"].scrollEvent li{transform: translateX(0%); opacity:1;}
 
-    /* .mainArea .evolutionArea div ul[data-scrollEvent] + .imgBox{overflow: hidden;} */
-    .mainArea .evolutionArea div ul[data-scrollEvent] + .imgBox{transform: translateX(-100%) translateY(-73.125rem); transition: 0.5s 0.4s transform;}
-    .mainArea .evolutionArea div ul[data-scrollEvent].scrollEvent + .imgBox{transform: translateX(0%) translateY(0px);}
+    /* .barrotPage .mainArea .evolutionArea div ul[data-scrollEvent] + .imgBox{overflow: hidden;} */
+    .barrotPage .mainArea .evolutionArea div ul[data-scrollEvent] + .imgBox{transform: translateX(-100%) translateY(-73.125rem); transition: 0.5s 0.4s transform;}
+    .barrotPage .mainArea .evolutionArea div ul[data-scrollEvent].scrollEvent + .imgBox{transform: translateX(0%) translateY(0px);}
 
     /* 
-    .mainArea .introduceArea h3{opacity: 0; transition: 0.5s opacity;}
-    .mainArea .introduceArea.scrollEvent h3{opacity: 1;}
-    .mainArea .introduceArea ul li{transform: translateX(-100%); opacity: 0; transition: 0.5s transform , opacity;}
-    .mainArea .introduceArea.scrollEvent ul li{transform: translateX(0%); opacity: 1;}
-    .mainArea .introduceArea p{opacity: 0; transition: 0.5s;}
-    .mainArea .introduceArea.scrollEvent p{opacity: 1;}
+    .barrotPage .mainArea .introduceArea h3{opacity: 0; transition: 0.5s opacity;}
+    .barrotPage .mainArea .introduceArea.scrollEvent h3{opacity: 1;}
+    .barrotPage .mainArea .introduceArea ul li{transform: translateX(-100%); opacity: 0; transition: 0.5s transform , opacity;}
+    .barrotPage .mainArea .introduceArea.scrollEvent ul li{transform: translateX(0%); opacity: 1;}
+    .barrotPage .mainArea .introduceArea p{opacity: 0; transition: 0.5s;}
+    .barrotPage .mainArea .introduceArea.scrollEvent p{opacity: 1;}
     */
 }

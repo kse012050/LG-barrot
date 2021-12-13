@@ -54,6 +54,12 @@ function tabMenu(){
 
 function scrollEvnet(){
     $(window).scroll(function(){
+        if($(window).scrollTop() > 10){
+            $('header').addClass('active');
+        }else{
+            $('header').removeClass('active');
+        }
+
         $('.barrotPage [id]').each(function(){
             $(this).index('.barrotPage [id]')
             if($(window).scrollTop() > $(this).offset().top - 10){
