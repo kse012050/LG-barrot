@@ -16,14 +16,15 @@
     .mainArea > .imgArea img{width: 100%;}
 
     .mainArea .introduceArea{margin-bottom: 7.500rem;}
-    .mainArea .introduceArea ul{display: flex; flex-wrap: wrap; justify-content: space-between; }
+    .mainArea .introduceArea ul{display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 2.500rem;}
     .mainArea .introduceArea ul li{width: 48.3%; font-size: 1.500rem; color: white;  padding-top: 12.500rem; text-align: center; background-repeat: no-repeat; background-position: left top; background-size: 100%;}
     .mainArea .introduceArea ul li:not(:nth-child(-n + 2)){margin-top: 2.188rem;}
     .mainArea .introduceArea ul li:nth-child(1){background-image: url('../images/introduceImg01.png');}
     .mainArea .introduceArea ul li:nth-child(2){background-image: url('../images/introduceImg02.png');}
     .mainArea .introduceArea ul li:nth-child(3){background-image: url('../images/introduceImg03.png');}
     .mainArea .introduceArea ul li:nth-child(4){background-image: url('../images/introduceImg04.png');}
-    .mainArea .introduceArea p{display: none;}
+    .mainArea .introduceArea p{font-family: 'NanumSquare'; font-size: 1.625rem; font-weight: 700; color: rgba(130, 130, 130, 0.6); line-height: 2rem; margin-bottom: 7.500rem;}
+    .mainArea .introduceArea p b{font-weight: 800;}
 
     .mainArea .evolutionArea h3{position: relative; z-index: 2;}
     .mainArea .evolutionArea div ul{display: flex; flex-wrap: wrap;}
@@ -50,6 +51,7 @@
     .functionArea .bx-wrapper .bx-viewport .slider > div p{font-weight: 700; line-height: 2.250rem; margin-bottom: 3.750rem;}
     .functionArea .bx-wrapper .bx-viewport .slider > div .LGLogoBox img{width: 6.563rem;}
     .functionArea .bx-wrapper .bx-viewport .slider > div[aria-hidden="false"]{opacity: 1;}
+    .functionArea .bx-wrapper .bx-controls-direction a{display: none;}
 
 
 
@@ -67,25 +69,26 @@
     .productArea .slider p{font-size: 1.625rem; font-weight: 600; line-height: 2.250rem;}
 
 
-    .SpeciArea{background-color: #ededed;}
-    .SpeciArea > div h3{margin-bottom: 2.500rem;}
-    .SpeciArea > div .tabBtn{display: flex; margin-bottom: 7.500rem;}
-    .SpeciArea > div .tabBtn button:not(:last-child){margin-right: 0.625rem;}
-    .SpeciArea > div .tabBtn button{width: 14.688rem; height: 4.688rem; display: flex; justify-content: center; align-items: center; font-size: 1.625rem; font-weight: 700; color: white; background-color: #7e7e7e; border-radius: 6.250rem;}
-    .SpeciArea > div .tabBtn button.active{background-color: #0022cc;}
-    .SpeciArea > div > img{display: block; max-width: 100%; margin: 0 auto 8.750rem;}
-    .SpeciArea > div table caption{text-align: left; font-size: 2.250rem; font-weight: 700; margin-bottom: 1.250rem;}
-    .SpeciArea > div table tbody{width: 100%;}
-    .SpeciArea > div table tr{width: 100%; text-align: left;}
-    .SpeciArea > div table tr *{font-size: 1.375rem; line-height: 1.625rem; letter-spacing: -0.063rem;}
-    .SpeciArea > div table tr th:first-child{width: 10.938rem; font-weight: 700;}
-    .SpeciArea > div table thead{display: none;}
-    .SpeciArea > div table tbody{border-top: 0.188rem solid black;}
-    .SpeciArea > div table tbody tr:not(:last-child){border-bottom: 0.063rem solid black;}
-    .SpeciArea > div table tbody tr > *{padding-top: 0.625rem; padding-bottom: 0.625rem;}
-    .SpeciArea > div table tbody tr td{width: 26.563rem;}
-    .SpeciArea > div table tr > *:nth-child(n + 2){display: none; padding-left: 0.625rem; padding-right: 0.625rem; box-sizing: border-box;}
-    .SpeciArea > div table tr > *.active{display: block; background-color: white ;}
+    .speciArea{background-color: #ededed;}
+    .speciArea > div h3{margin-bottom: 2.500rem;}
+    .speciArea > div .tabBtn{display: flex; margin-bottom: 7.500rem;}
+    .speciArea > div .tabBtn button:not(:last-child){margin-right: 0.625rem;}
+    .speciArea > div .tabBtn button{width: 14.688rem; height: 4.688rem; display: flex; justify-content: center; align-items: center; font-size: 1.625rem; font-weight: 700; color: white; background-color: #7e7e7e; border-radius: 6.250rem;}
+    .speciArea > div .tabBtn button.active{background-color: #0022cc;}
+    .speciArea > div .tabImg > img{display: none; max-width: 100%; margin: 0 auto 8.750rem;}
+    .speciArea > div .tabImg > img.active{display: block;}
+    .speciArea > div table caption{text-align: left; font-size: 2.250rem; font-weight: 700; margin-bottom: 1.250rem;}
+    .speciArea > div table tbody{width: 100%;}
+    .speciArea > div table tr{width: 100%; text-align: left;}
+    .speciArea > div table tr *{font-size: 1.375rem; line-height: 1.625rem; letter-spacing: -0.063rem;}
+    .speciArea > div table tr th:first-child{width: 10.938rem; font-weight: 700;}
+    .speciArea > div table thead{display: none;}
+    .speciArea > div table tbody{border-top: 0.188rem solid black;}
+    .speciArea > div table tbody tr:not(:last-child){border-bottom: /* 0.063rem */1px solid black;}
+    .speciArea > div table tbody tr > *{padding-top: 0.625rem; padding-bottom: 0.625rem;}
+    .speciArea > div table tbody tr td{width: 26.563rem;}
+    .speciArea > div table tr > *:nth-child(n + 2){display: none; padding-left: 0.625rem; padding-right: 0.625rem; box-sizing: border-box;}
+    .speciArea > div table tr > *.active{display: block; background-color: white ;}
 }
 
 @media screen and (min-width:721px) {
@@ -112,6 +115,7 @@
     .mainArea .introduceArea ul li:nth-child(3){background-image: url('../images/introduceImg03.png');}
     .mainArea .introduceArea ul li:nth-child(4){background-image: url('../images/introduceImg04.png');}
     .mainArea .introduceArea p{font-family: 'NanumSquare'; font-size: 2.000rem; font-weight: 700; color: rgba(130, 130, 130, 0.6); line-height: 4.188rem;}
+    .mainArea .introduceArea p b{font-weight: 800;}
 
     .mainArea .evolutionArea h3{position: relative; z-index: 2;}
     .mainArea .evolutionArea div{max-width: 112.500rem; margin: 0 auto;}
@@ -131,7 +135,7 @@
 
     .functionArea h3{margin-bottom: 4.688rem;}
     .functionArea .bx-wrapper .bx-viewport{ padding: 0 16.250rem; box-sizing: border-box;}
-    .functionArea .bx-wrapper .bx-viewport .slider > div{padding: 6.875rem 50.938rem 6.875rem 3.125rem; background-color: #1d1d1f; background-repeat: no-repeat; background-position: right top; background-size: 50.938rem; font-size: 1.875rem; color: white; opacity: 0.5; margin-right: 5.000rem;}
+    .functionArea .bx-wrapper .bx-viewport .slider > div{padding: 6.875rem 50.938rem 6.875rem 3.125rem; height: 36.563rem; background-color: #1d1d1f; background-repeat: no-repeat; background-position: right top; background-size: 50.938rem; font-size: 1.875rem; color: white; opacity: 0.5; margin-right: 5.000rem; box-sizing: border-box;}
     .functionArea .bx-wrapper .bx-viewport .slider > div.slider01{background-image: url('../images/function_img01.png');}
     .functionArea .bx-wrapper .bx-viewport .slider > div.slider02{background-image: url('../images/function_img01.png');}
     .functionArea .bx-wrapper .bx-viewport .slider > div.slider03{background-image: url('../images/function_img01.png');}
@@ -140,6 +144,9 @@
     .functionArea .bx-wrapper .bx-viewport .slider > div p{font-weight: 700; line-height: 3.250rem; margin-bottom: 5.625rem;}
     .functionArea .bx-wrapper .bx-viewport .slider > div .LGLogoBox img{width: 7.188rem;}
     .functionArea .bx-wrapper .bx-viewport .slider > div[aria-hidden="false"]{opacity: 1;}
+    .functionArea .bx-wrapper .bx-controls-direction a{z-index: 10; width: 4.375rem; height: 4.375rem;}
+    .functionArea .bx-wrapper .bx-controls-direction .bx-prev{left: 9.375rem; background: url('../images/function_sliderPrev.png') no-repeat center / cover;}
+    .functionArea .bx-wrapper .bx-controls-direction .bx-next{right: 9.375rem; background: url('../images/function_sliderNext.png') no-repeat center / cover;}
 
 
 
@@ -157,26 +164,27 @@
     .productArea .slider p{font-size: 2.000rem; font-weight: 600; line-height: 3.500rem; position: absolute; left: 0; top: 4.375rem;}
 
 
-    .SpeciArea{background-color: #ededed;}
-    .SpeciArea > div h3{margin-bottom: 3.750rem;}
-    .SpeciArea > div .tabBtn{display: flex; margin-bottom: 9.688rem;}
-    .SpeciArea > div .tabBtn button:not(:last-child){margin-right: 1.875rem;}
-    .SpeciArea > div .tabBtn button{width: 18.125rem; height: 5.938rem; display: flex; justify-content: center; align-items: center; font-size: 1.875rem; font-weight: 700; color: white; background-color: #7e7e7e; border-radius: 6.250rem;}
-    .SpeciArea > div .tabBtn button.active{background-color: #0022cc;}
-    .SpeciArea > div > img{display: block; max-width: 100%; margin: 0 auto 12.813rem;}
-    .SpeciArea > div table caption{text-align: left; font-size: 3.063rem; font-weight: 700; margin-bottom: 3.750rem;}
-    .SpeciArea > div table tbody{width: 100%;}
-    .SpeciArea > div table tr{width: 100%; text-align: left;}
-    .SpeciArea > div table tr *{font-size: 1.500rem; line-height: 2.375rem;}
-    .SpeciArea > div table tr th:first-child{width: 24.063rem; font-weight: 700;}
-    .SpeciArea > div table tr > *:nth-child(n + 2){padding-left: 2.813rem; padding-right: 2.813rem; box-sizing: border-box;}
-    .SpeciArea > div table thead{border-top: 0.188rem solid black;}
-    .SpeciArea > div table thead th img{display: block; max-width: 100%;}
-    .SpeciArea > div table thead tr > *{padding-top: 2.500rem; padding-bottom: 4.063rem;}
-    .SpeciArea > div table tbody tr{border-top: 0.063rem solid black;}
-    .SpeciArea > div table tbody tr > *{padding-top: 1.250rem; padding-bottom: 1.250rem;}
-    .SpeciArea > div table tr .active{opacity: 1;}
-    .SpeciArea > div table tr > *{opacity: 0.3;}
+    .speciArea{background-color: #ededed;}
+    .speciArea > div h3{margin-bottom: 3.750rem;}
+    .speciArea > div .tabBtn{display: flex; margin-bottom: 9.688rem;}
+    .speciArea > div .tabBtn button:not(:last-child){margin-right: 1.875rem;}
+    .speciArea > div .tabBtn button{width: 18.125rem; height: 5.938rem; display: flex; justify-content: center; align-items: center; font-size: 1.875rem; font-weight: 700; color: white; background-color: #7e7e7e; border-radius: 6.250rem;}
+    .speciArea > div .tabBtn button.active{background-color: #0022cc;}
+    .speciArea > div .tabImg > img{display: none; max-width: 100%; margin: 0 auto 12.813rem;}
+    .speciArea > div .tabImg > img.active{display: block;}
+    .speciArea > div table caption{text-align: left; font-size: 3.063rem; font-weight: 700; margin-bottom: 3.750rem;}
+    .speciArea > div table tbody{width: 100%;}
+    .speciArea > div table tr{width: 100%; text-align: left;}
+    .speciArea > div table tr *{font-size: 1.500rem; line-height: 2.375rem;}
+    .speciArea > div table tr th:first-child{width: 24.063rem; font-weight: 700;}
+    .speciArea > div table tr > *:nth-child(n + 2){padding-left: 2.813rem; padding-right: 2.813rem; box-sizing: border-box;}
+    .speciArea > div table thead{border-top: 0.188rem solid black;}
+    .speciArea > div table thead th img{display: block; max-width: 100%;}
+    .speciArea > div table thead tr > *{padding-top: 2.500rem; padding-bottom: 4.063rem;}
+    .speciArea > div table tbody tr{border-top: /* 0.063rem */1px solid black;}
+    .speciArea > div table tbody tr > *{padding-top: 1.250rem; padding-bottom: 1.250rem;}
+    .speciArea > div table tr > *:not(:first-child){opacity: 0.3;}
+    .speciArea > div table tr > .active{opacity: 1; background-color: #f5f5f5;}
 
 
     

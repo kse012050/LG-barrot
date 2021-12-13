@@ -19,398 +19,414 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-    <header>
-        <h1><a href="#"><img src="images/Barrot_logo.png" alt="barrot logo"></a></h1>
-        <button title="menu">
-            <span></span>
-            <span></span>
-        </button>
-    </header>
-
-    <section class="mainArea paddingBox">
-        <div class="homeArea">
-            <h2 class="paddingBox2" >
-                전세계 전문 용어<br/>
-                통역, 번역 디스플레이
-            </h2>
-            <figure class="LGLogoBox">
-                <figcaption>
-                    Technilogies driven by
-                </figcaption>
-                <img src="images/LGDisply_logo_kr.png" alt="LG디스플레이">
-            </figure>
-            <p>
-                전세계 언어 걱정 없이
-                언제 어디서나 자유롭고
-                편하게 소통하세요
-                <small>Communication Free Zone Barrot</small>
-            </p>
-        </div>
-        <div class="imgArea" data-scrollEvent="mainProduct">
-            <!-- LG display barrot protuct img -->
-            <img src="images/productImg01.png" alt="제품 이미지">
-        </div>
-
-        <div class="introduceArea paddingBox2">
-            <h3 data-scrollEvent="opacity">
-                AI 인공지능 다국어 전문 통번역<br/>
-                언제 어디서나 자유로운 글로벌 언어 소통
-            </h3>
-            <ul data-scrollEvent="leftArea">
-                <li>전문 국제 회의</li>
-                <li>글로벌 기업</li>
-                <li>다국어·다문화 가정</li>
-                <li>정부 관련 기관</li>
-            </ul>
-            <p data-scrollEvent="opacity">
-                Barrot은 글로벌 오퍼레이션을 하는 기업간, 기업내 소통을 위해  실시간 통역/번역 기능을 제공하는 제품으로,<br/>
-                (주) LG 디스플레이의 다자회의에 적합한 Far field 빔포밍 기술의 임베디드 마이크, 시네마틱 사운드 스피커,<br/>
-                보안이 강화된 OS 및 인터페이스 기술, 선명한 IPS 디스플레이 패널이 융합된 기기에 <br/>
-                AI(artificial Intelligence)를 활용한 실시간 전문 통역/번역 솔루션이 결합된 제품입니다.
-            </p>
-        </div>
-
-        <div class="evolutionArea">
-            <h3 class="paddingBox2" data-scrollEvent="opacity">
-                다국어 전문 용어 AI 번역 디스플레이<br/>
-                시스템의 진화
-            </h3>
-            <div>
-                <ul data-scrollEvent="opacity">
-                    <li>
-                        <strong><mark>R</mark>ealtime</strong>
-                        <p>
-                            전세계 103개 언어<br/>
-                            실시간 통역
-                        </p>
-                    </li>
-                    <li>
-                        <strong><mark>A</mark>ccuracy</strong>
-                        <p>
-                            전문용어 인식<br/>
-                            번역률 99%
-                        </p>
-                    </li>
-                    <li>
-                        <strong><mark>S</mark>ecurity</strong>
-                        <p>
-                            정보 유출 방지 및<br/>
-                            완벽한 데이터 보안 
-                        </p>
-                    </li>
-                    <li>
-                        <strong>
-                            <span>
-                                <mark>L</mark>G Display
-                                Technology
-                            </span>
-                        </strong>
-                        <p>
-                            넓은 시야각, 선명한 문자 화질,<br/>
-                            우수한 In-Touch기술
-                        </p>
-                    </li>
+    <div class="barrotPage">
+        <header>
+            <h1><a href="#"><img src="images/Barrot_logo.png" alt="barrot logo"></a></h1>
+            <button title="menu">
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li class="active"><a href="#about">About</a></li>
+                    <li><a href="#function">Function</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#specification">Specification</a></li>
                 </ul>
-                <div class="imgBox">
-                    LG display barrot protuct img
-                    <!-- <img src="images/productImg02.png" alt=""> -->
+            </nav>
+        </header>
+
+        <section class="mainArea paddingBox" id="about">
+            <div class="homeArea">
+                <h2 class="paddingBox2" >
+                    전세계 전문 용어<br/>
+                    통역, 번역 디스플레이
+                </h2>
+                <figure class="LGLogoBox">
+                    <figcaption>
+                        Technilogies driven by
+                    </figcaption>
+                    <img src="images/LGDisply_logo_kr.png" alt="LG디스플레이">
+                </figure>
+                <p>
+                    전세계 언어 걱정 없이
+                    언제 어디서나 자유롭고
+                    편하게 소통하세요
+                    <small>Communication Free Zone Barrot</small>
+                </p>
+            </div>
+            <div class="imgArea" data-scrollEvent="mainProduct">
+                <!-- LG display barrot protuct img -->
+                <img src="images/productImg01.png" alt="제품 이미지">
+            </div>
+
+            <div class="introduceArea paddingBox2">
+                <h3 data-scrollEvent="opacity">
+                    AI 인공지능 다국어 전문 통번역<br/>
+                    언제 어디서나 자유로운 글로벌 언어 소통
+                </h3>
+                <ul data-scrollEvent="leftArea">
+                    <li>전문 국제 회의</li>
+                    <li>글로벌 기업</li>
+                    <li>다국어·다문화 가정</li>
+                    <li>정부 관련 기관</li>
+                </ul>
+                <p data-scrollEvent="opacity">
+                    Barrot은 <b>글로벌 오퍼레이션을 하는 기업간, 기업내 소통을 위해  실시간 통역/번역</b> 기능을 제공하는 제품으로,<br/>
+                    <b>(주) LG 디스플레이</b>의 다자회의에 적합한 Far field 빔포밍 기술의 임베디드 마이크, 시네마틱 사운드 스피커,<br/>
+                    보안이 강화된 OS 및 인터페이스 기술, 선명한 IPS 디스플레이 패널이 융합된 기기에 <br/>
+                    AI(artificial Intelligence)를 활용한 실시간 전문 통역/번역 솔루션이 결합된 제품입니다.
+                </p>
+            </div>
+
+            <div class="evolutionArea">
+                <h3 class="paddingBox2" data-scrollEvent="opacity">
+                    다국어 전문 용어 AI 번역 디스플레이<br/>
+                    시스템의 진화
+                </h3>
+                <div>
+                    <ul data-scrollEvent="opacity">
+                        <li>
+                            <strong><mark>R</mark>ealtime</strong>
+                            <p>
+                                전세계 103개 언어<br/>
+                                실시간 통역
+                            </p>
+                        </li>
+                        <li>
+                            <strong><mark>A</mark>ccuracy</strong>
+                            <p>
+                                전문용어 인식<br/>
+                                번역률 99%
+                            </p>
+                        </li>
+                        <li>
+                            <strong><mark>S</mark>ecurity</strong>
+                            <p>
+                                정보 유출 방지 및<br/>
+                                완벽한 데이터 보안 
+                            </p>
+                        </li>
+                        <li>
+                            <strong>
+                                <span>
+                                    <mark>L</mark>G Display
+                                    Technologies
+                                </span>
+                            </strong>
+                            <p>
+                                넓은 시야각, 선명한 문자 화질,<br/>
+                                우수한 In-Touch기술
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="imgBox">
+                        LG display barrot protuct img
+                        <!-- <img src="images/productImg02.png" alt=""> -->
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="functionArea">
-        <h3 class="paddingBox3" data-scrollEvent="opacity">Function
-            <small>Barrot은  다양한 환경에서 사용 가능합니다</small>
-        </h3>
-        <div class="slider" data-scrollEvent="opacity">
-            <div class="slider01">
-                <b>For Business</b>
-                <p>
-                    다자간 / 다양한 언어로 회의 지원 가능<br/>
-                    회의록 자동 작성 <br/>
-                    High level 보안
-                </p>
-                <figure class="LGLogoBox">
-                    <figcaption>
-                        Technilogies driven by
-                    </figcaption>
-                    <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
-                </figure>
-            </div>
-            <div class="slider02">
-                <b>For Business</b>
-                <p>
-                    다자간 / 다양한 언어로 회의 지원 가능<br/>
-                    회의록 자동 작성 <br/>
-                    High level 보안
-                </p>
-                <figure class="LGLogoBox">
-                    <figcaption>
-                        Technilogies driven by
-                    </figcaption>
-                    <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
-                </figure>
-            </div>
-            <div class="slider03">
-                <b>For Business</b>
-                <p>
-                    다자간 / 다양한 언어로 회의 지원 가능<br/>
-                    회의록 자동 작성 <br/>
-                    High level 보안
-                </p>
-                <figure class="LGLogoBox">
-                    <figcaption>
-                        Technilogies driven by
-                    </figcaption>
-                    <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
-                </figure>
-            </div>
-        </div>
-    </section>
-
-    <section class="productArea paddingBox3">
-        <h3 data-scrollEvent="opacity">Product
-            <small>최적의 사양과 놀라운 편이성 그리고 최고의 보안</small>
-        </h3>
-        <div data-scrollEvent="opacity">
-            <a href="#" class="prevSelector"></a>
-            <a href="#" class="nextSelector"></a>
-            <ul class="thumbPager">
-                <li>
-                    <a href="" data-slide-index="0">Real Time AI Translation</a>
-                </li>
-                <li>
-                    <a href="" data-slide-index="1">Real Time AI Translation</a>
-                </li>
-                <li>
-                    <a href="" data-slide-index="2">Real Time AI Translation</a>
-                </li>
-            </ul>
-        </div>
-        <div class="slider" data-scrollEvent="opacity">
-            <div>
-                <p>
-                    실시간 나라별 음성인식 및 번역, 최단기 특화된 모델로 전문용어 학습<br/>
-                    최대 103개국 언어및 사투리 억양 인지 
-                </p>
-                <img src="images/product_img01.png" alt="제품 이미지">
-            </div>
-            <div>
-                <p>
-                    실시간 나라별 음성인식 및 번역, 최단기 특화된 모델로 전문용어 학습<br/>
-                    최대 103개국 언어및 사투리 억양 인지 
-                </p>
-                <img src="images/product_img01.png" alt="제품 이미지">
-            </div>
-            <div>
-                <p>
-                    실시간 나라별 음성인식 및 번역, 최단기 특화된 모델로 전문용어 학습<br/>
-                    최대 103개국 언어및 사투리 억양 인지 
-                </p>
-                <img src="images/product_img01.png" alt="제품 이미지">
-            </div>
-        </div>
-    </section>
-
-    <section class="SpeciArea">
-        <div class="paddingBox3">
-            <h3 data-scrollEvent="opacity">Specification</h3>
-            <div class="tabBtn" data-scrollEvent="opacity">
-                <button class="active">단면 Barrot</button>
-                <button>양면 Barrot</button>
-            </div>
-            <img src="images/specification_img.png" alt="" data-scrollEvent="opacity">
-            
-            <table data-scrollEvent="opacity">
-                <caption>
-                    Tech Specs.
-                </caption>
-        
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>단면  Barrot
-                            <img src="images/specification_section.png" alt="">
-                        </th>
-                        <th>양면  Barrot
-                            <img src="images/specification_bothSide.png" alt="">
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Dimensions</th>
-                        <td>
-                            <p>677x77x42 mm</p>
-                        </td>
-                        <td>
-                            <p>677x77x60mm (Folding)</p>
-                            <p>677x77x120mm (Setting)</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Weight</th>
-                        <td>
-                            <p>1.2kg (w/o Power cable)</p>
-                        </td>
-                        <td>
-                            <p>2.4kg (w/o Power cable)</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Display</th>
-                        <td>
-                            <p>23" Bar type (1ea)</p>
-                            <p>In-Touch screen</p>
-                            <p>View angle free</p>
-                            <p>Anti-Glare</p>
-                        </td>
-                        <td>
-                            <p>23" Bar type (2ea)</p>
-                            <p>In-Touch screen</p>
-                            <p>View angle free</p>
-                            <p>Anti-Glare</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Microphone</th>
-                        <td>
-                            <p>4 far-field microophones</p>
-                            <p>Voice Match Technology</p>
-                            <p>Active Noise Canceling</p>
-                        </td>
-                        <td>
-                            <p>6 far-field microphones</p>
-                            <p>Voice Match Technology</p>
-                            <p>Active Noise Canceling</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Speaker</th>
-                        <td>
-                            <p>2 Cinematic Sound Speakers</p>
-                            <p>1 Woofer</p>
-                        </td>
-                        <td>
-                            <p>4 Cinematic Sound Speakers</p>
-                            <p>1 Woofer</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Camera</th>
-                        <td>
-                            <p>Option</p>
-                        </td>
-                        <td>
-                            <p>6.5 Mpixel Camera 127 deg. </p>
-                            <p>Wide fieldof view and autoframing</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Sensor</th>
-                        <td>
-                            <p>Ambient EQ Light Sensor</p>
-                        </td>
-                        <td>
-                            <p>Ambient EQ Light Sensor</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Power</th>
-                        <td>
-                            <p>30W power adapter</p>
-                            <p>Touch Power Switch</p>
-                        </td>
-                        <td>
-                            <p>60W power adapter</p>
-                            <p>Touch Power Switch</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Ports</th>
-                        <td>
-                            <p>Micro USB (C type)</p>
-                            <p>Micro SD Memory</p>
-                            <p>Extra Microphone</p>
-                            <p>DC Power jack (12V</p>
-                        </td>
-                        <td>
-                            <p>Micro USB (C type)</p>
-                            <p>Micro SD Memory</p>
-                            <p>Extra Microphone</p>
-                            <p>DC Power jack (12V</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Connectivity</th>
-                        <td>
-                            <p>802.11b/g/n/ac (2.4 GHz/5 GHz) Wi-Fi</p>
-                            <p>Bluetooth® 3.0</p>
-                            <p>MicroUSB 3.0</p>
-                        </td>
-                        <td>
-                            <p>802.11b/g/n/ac (2.4 GHz/5 GHz) Wi-Fi</p>
-                            <p>Bluetooth® 3.0</p>
-                            <p>MicroUSB 3.0</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Solutions</th>
-                        <td>
-                            <p>1. Translation meeting</p>
-                            <p>2. Private discussion</p>
-                            <p>3. TV Subtitle translation</p>
-                            <p>4. Conference translation</p>
-                            <p>5. Customized solution</p>
-                            <p>6. Voice record</p>
-                            <p>7. Auto meeting note creation</p>
-                            <p>8. Voice, meeting notemailing service</p>
-                        </td>
-                        <td>
-                            <p>1. Translation meeting</p>
-                            <p>2. Private discussion</p>
-                            <p>3. Name Card /Conference translation</p>
-                            <p>4. Conference translation</p>
-                            <p>5. Voice record</p>
-                            <p>6. Auto meeting note creation</p>
-                            <p>7. Voice, meeting notemailing service</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Languages</th>
-                        <td colspan="2">
-                            <p>65 Languages supported</p>
-                            <p>(Professional languages study required in different industrial sector)</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
-
-    <footer>
-        <div>
-            <img src="images/Barrot_logo.png" alt="baroot logo">
-            <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
-        </div>
-        <address>
-            <a href="">고객센터</a>
-            <dl>
-                <dt>사업장</dt>
-                <dd>
+        <section class="functionArea" id="function">
+            <h3 class="paddingBox3" data-scrollEvent="opacity">Function
+                <small>Barrot은  다양한 환경에서 사용 가능합니다</small>
+            </h3>
+            <div class="slider" data-scrollEvent="opacity">
+                <div class="slider01">
+                    <b>For Business</b>
                     <p>
-                        서울특별시 영등포구 여의대로 128, LG트윈타워 <br/>
-                        경기도 파주시 월롱면 엘지로 245
+                        다자간 / 다양한 언어로 회의 지원 가능<br/>
+                        회의록 자동 작성 <br/>
+                        High level 보안
                     </p>
-                </dd>
-            </dl>
-            <dl>
-                <dt>이메일</dt>
-                <dd><a href="#">Justinsong@lgdisplay.com</a></dd>
-            </dl>
-            <p>COPYRIGHT © 2021 Ai-Battot co,Ltd.. ALL RIGHTS RESERVED by Steel Oh LG Display.com</p>
-        </address>
-    </footer>
+                    <figure class="LGLogoBox">
+                        <figcaption>
+                            Technilogies driven by
+                        </figcaption>
+                        <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
+                    </figure>
+                </div>
+                <div class="slider02">
+                    <b>For Business</b>
+                    <p>
+                        다자간 / 다양한 언어로 회의 지원 가능<br/>
+                        회의록 자동 작성 <br/>
+                        High level 보안
+                    </p>
+                    <figure class="LGLogoBox">
+                        <figcaption>
+                            Technilogies driven by
+                        </figcaption>
+                        <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
+                    </figure>
+                </div>
+                <div class="slider03">
+                    <b>For Business</b>
+                    <p>
+                        다자간 / 다양한 언어로 회의 지원 가능<br/>
+                        회의록 자동 작성 <br/>
+                        High level 보안
+                    </p>
+                    <figure class="LGLogoBox">
+                        <figcaption>
+                            Technilogies driven by
+                        </figcaption>
+                        <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="productArea paddingBox3" id="product">
+            <h3 data-scrollEvent="opacity">Product
+                <small>최적의 사양과 놀라운 편이성 그리고 최고의 보안</small>
+            </h3>
+            <div data-scrollEvent="opacity">
+                <a href="#" class="prevSelector"></a>
+                <a href="#" class="nextSelector"></a>
+                <ul class="thumbPager">
+                    <li>
+                        <a href="" data-slide-index="0">Real Time AI Translation</a>
+                    </li>
+                    <li>
+                        <a href="" data-slide-index="1">Real Time AI Translation</a>
+                    </li>
+                    <li>
+                        <a href="" data-slide-index="2">Real Time AI Translation</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="slider" data-scrollEvent="opacity">
+                <div>
+                    <p>
+                        실시간 나라별 음성인식 및 번역<br/>
+                        최단기 특화된 모델로 전문용어 학습<br/>
+                        최대 103개국 언어및 사투리 억양 인지 
+                    </p>
+                    <img src="images/product_img01.png" alt="제품 이미지">
+                </div>
+                <div>
+                    <p>
+                        실시간 나라별 음성인식 및 번역<br/>
+                        최단기 특화된 모델로 전문용어 학습<br/>
+                        최대 103개국 언어및 사투리 억양 인지 
+                    </p>
+                    <img src="images/product_img01.png" alt="제품 이미지">
+                </div>
+                <div>
+                    <p>
+                        실시간 나라별 음성인식 및 번역<br/>
+                        최단기 특화된 모델로 전문용어 학습<br/>
+                        최대 103개국 언어및 사투리 억양 인지 
+                    </p>
+                    <img src="images/product_img01.png" alt="제품 이미지">
+                </div>
+            </div>
+        </section>
+
+        <section class="speciArea" id="specification">
+            <div class="paddingBox3">
+                <h3 data-scrollEvent="opacity">Specification</h3>
+                <div class="tabBtn" data-scrollEvent="opacity">
+                    <button class="active">단면 Barrot</button>
+                    <button>양면 Barrot</button>
+                </div>
+                <div class="tabImg">
+                    <img src="images/specification_img01.png" alt="제품 단면 이미지" class="active" data-scrollEvent="opacity">
+                    <img src="images/specification_img02.png" alt="제품 양면 이미지" data-scrollEvent="opacity">
+                </div>
+                
+                <table data-scrollEvent="opacity">
+                    <caption>
+                        Tech Specs.
+                    </caption>
+            
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>단면  Barrot
+                                <img src="images/specification_section.png" alt="">
+                            </th>
+                            <th>양면  Barrot
+                                <img src="images/specification_bothSide.png" alt="">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Dimensions</th>
+                            <td>
+                                <p>677x77x42 mm</p>
+                            </td>
+                            <td>
+                                <p>677x77x60mm (Folding)</p>
+                                <p>677x77x120mm (Setting)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Weight</th>
+                            <td>
+                                <p>1.2kg (w/o Power cable)</p>
+                            </td>
+                            <td>
+                                <p>2.4kg (w/o Power cable)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Display</th>
+                            <td>
+                                <p>23" Bar type (1ea)</p>
+                                <p>In-Touch screen</p>
+                                <p>View angle free</p>
+                                <p>Anti-Glare</p>
+                            </td>
+                            <td>
+                                <p>23" Bar type (2ea)</p>
+                                <p>In-Touch screen</p>
+                                <p>View angle free</p>
+                                <p>Anti-Glare</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Microphone</th>
+                            <td>
+                                <p>4 far-field microophones</p>
+                                <p>Voice Match Technologies</p>
+                                <p>Active Noise Canceling</p>
+                            </td>
+                            <td>
+                                <p>6 far-field microphones</p>
+                                <p>Voice Match Technologies</p>
+                                <p>Active Noise Canceling</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Speaker</th>
+                            <td>
+                                <p>2 Cinematic Sound Speakers</p>
+                                <p>1 Woofer</p>
+                            </td>
+                            <td>
+                                <p>4 Cinematic Sound Speakers</p>
+                                <p>1 Woofer</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Camera</th>
+                            <td>
+                                <p>Option</p>
+                            </td>
+                            <td>
+                                <p>6.5 Mpixel Camera 127 deg. </p>
+                                <p>Wide fieldof view and autoframing</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Sensor</th>
+                            <td>
+                                <p>Ambient EQ Light Sensor</p>
+                            </td>
+                            <td>
+                                <p>Ambient EQ Light Sensor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Power</th>
+                            <td>
+                                <p>30W power adapter</p>
+                                <p>Touch Power Switch</p>
+                            </td>
+                            <td>
+                                <p>60W power adapter</p>
+                                <p>Touch Power Switch</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Ports</th>
+                            <td>
+                                <p>Micro USB (C type)</p>
+                                <p>Micro SD Memory</p>
+                                <p>Extra Microphone</p>
+                                <p>DC Power jack (12V</p>
+                            </td>
+                            <td>
+                                <p>Micro USB (C type)</p>
+                                <p>Micro SD Memory</p>
+                                <p>Extra Microphone</p>
+                                <p>DC Power jack (12V</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Connectivity</th>
+                            <td>
+                                <p>802.11b/g/n/ac (2.4 GHz/5 GHz) Wi-Fi</p>
+                                <p>Bluetooth® 3.0</p>
+                                <p>MicroUSB 3.0</p>
+                            </td>
+                            <td>
+                                <p>802.11b/g/n/ac (2.4 GHz/5 GHz) Wi-Fi</p>
+                                <p>Bluetooth® 3.0</p>
+                                <p>MicroUSB 3.0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Solutions</th>
+                            <td>
+                                <p>1. Translation meeting</p>
+                                <p>2. Private discussion</p>
+                                <p>3. TV Subtitle translation</p>
+                                <p>4. Conference translation</p>
+                                <p>5. Customized solution</p>
+                                <p>6. Voice record</p>
+                                <p>7. Auto meeting note creation</p>
+                                <p>8. Voice, meeting notemailing service</p>
+                            </td>
+                            <td>
+                                <p>1. Translation meeting</p>
+                                <p>2. Private discussion</p>
+                                <p>3. Name Card /Conference translation</p>
+                                <p>4. Conference translation</p>
+                                <p>5. Voice record</p>
+                                <p>6. Auto meeting note creation</p>
+                                <p>7. Voice, meeting notemailing service</p>
+                            </td>
+                        </tr>
+                        <tr class="noActive">
+                            <th>Languages</th>
+                            <td colspan="2">
+                                <p>65 Languages supported</p>
+                                <p>(Professional languages study required in different industrial sector)</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer>
+            <div>
+                <img src="images/Barrot_logo.png" alt="baroot logo">
+                <img src="images/LGDisply_logo_en.png" alt="LG디스플레이">
+            </div>
+            <address>
+                <a href="">고객센터</a>
+                <dl>
+                    <dt>사업장</dt>
+                    <dd>
+                        <p>
+                            서울특별시 영등포구 여의대로 128, LG트윈타워 <br/>
+                            경기도 파주시 월롱면 엘지로 245
+                        </p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>이메일</dt>
+                    <dd><a href="#">Justinsong@lgdisplay.com</a></dd>
+                </dl>
+                <p>COPYRIGHT © 2021 Ai-Battot co,Ltd.. ALL RIGHTS RESERVED by Steel Oh LG Display.com</p>
+            </address>
+        </footer>
+    </div>
 </body>
 </html>
