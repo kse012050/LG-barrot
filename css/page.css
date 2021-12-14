@@ -137,8 +137,8 @@
     .functionArea .bx-wrapper .bx-viewport{ padding: 0 16.250rem; box-sizing: border-box;}
     .functionArea .bx-wrapper .bx-viewport .slider > div{padding: 6.875rem 50.938rem 6.875rem 3.125rem; height: 36.563rem; background-color: #1d1d1f; background-repeat: no-repeat; background-position: right top; background-size: 50.938rem; font-size: 1.875rem; color: white; opacity: 0.5; margin-right: 5.000rem; box-sizing: border-box;}
     .functionArea .bx-wrapper .bx-viewport .slider > div.slider01{background-image: url('../images/function_img01.png');}
-    .functionArea .bx-wrapper .bx-viewport .slider > div.slider02{background-image: url('../images/function_img01.png');}
-    .functionArea .bx-wrapper .bx-viewport .slider > div.slider03{background-image: url('../images/function_img01.png');}
+    .functionArea .bx-wrapper .bx-viewport .slider > div.slider02{background-image: url('../images/function_img02.png');}
+    .functionArea .bx-wrapper .bx-viewport .slider > div.slider03{background-image: url('../images/function_img03.png');}
     .functionArea .bx-wrapper .bx-viewport .slider > div b{display: flex; align-items: center; font-weight: 600; margin-bottom: 3.125rem;}
     .functionArea .bx-wrapper .bx-viewport .slider > div b::before{content: ''; width: 10px; height: 10px; background-color: #0022cc; border-radius: 100%; margin-right: 12px;}
     .functionArea .bx-wrapper .bx-viewport .slider > div p{font-weight: 700; line-height: 3.250rem; margin-bottom: 5.625rem;}
