@@ -1,5 +1,5 @@
 @media screen and (max-width:720px) {
-    .barrotPage .mainArea h3{font-size: 2.250rem; font-weight: 700; color: white; line-height: 2.500rem; margin-bottom: 3.125rem;}
+    .barrotPage .mainArea h3{font-size: 2.250rem; font-weight: 700; color: white; line-height: 2.500rem; margin-bottom: 3.125rem; letter-spacing: -0.063rem;}
     .barrotPage .mainArea [class*="paddingBox"]{padding: 0;}
 
     .barrotPage .mainArea{padding-top: 10.000rem; padding-bottom: 2rem; background-color: #1d1d1d; position: relative;}
@@ -44,8 +44,8 @@
     .functionArea .bx-wrapper .bx-viewport{ padding: 0 6.875rem; box-sizing: border-box;}
     .functionArea .bx-wrapper .bx-viewport .slider > div{padding: 20.313rem 1.563rem 1.563rem; background-color: #1d1d1f; background-repeat: no-repeat; background-position: right top; background-size: 100%; font-size: 1.625rem; color: white; opacity: 0.5; margin-right: 2.500rem;}
     .functionArea .bx-wrapper .bx-viewport .slider > div.slider01{background-image: url('../images/m_function_img01.png');}
-    .functionArea .bx-wrapper .bx-viewport .slider > div.slider02{background-image: url('../images/m_function_img01.png');}
-    .functionArea .bx-wrapper .bx-viewport .slider > div.slider03{background-image: url('../images/m_function_img01.png');}
+    .functionArea .bx-wrapper .bx-viewport .slider > div.slider02{background-image: url('../images/m_function_img02.png');}
+    .functionArea .bx-wrapper .bx-viewport .slider > div.slider03{background-image: url('../images/m_function_img03.png');}
     .functionArea .bx-wrapper .bx-viewport .slider > div b{display: flex; align-items: center; font-weight: 600; margin-bottom: 3.125rem; }
     .functionArea .bx-wrapper .bx-viewport .slider > div b::before{content: ''; width: 0.625rem; height: 0.625rem; background-color: #0022cc; border-radius: 100%; margin-right: 0.750rem;}
     .functionArea .bx-wrapper .bx-viewport .slider > div p{font-weight: 700; line-height: 2.250rem; margin-bottom: 3.750rem;}
@@ -99,7 +99,7 @@
     .barrotPage .mainArea::after{content: ''; position: absolute; left: 0; top: 74.063rem; width: 100%; height: 91.250rem; background: url('../images/BG02.png') no-repeat center / cover;}
 
     .barrotPage .mainArea .homeArea{position: relative; padding-bottom: 21.250rem;}
-    .barrotPage .mainArea .homeArea h2{font-size: 5.875rem; font-weight: 700; color: #cccccc; line-height: 7.000rem;  margin-bottom: 63.61vw; position: relative; z-index: 2;}
+    .barrotPage .mainArea .homeArea h2{font-size: 5.875rem; font-weight: 700; color: #cccccc; line-height: 7.000rem;  margin-bottom: 76.313rem; position: relative; z-index: 2;}
     .barrotPage .mainArea .homeArea .LGLogoBox{position: absolute; right: 9.188rem; top: 6.250rem; text-align: right;}
     .barrotPage .mainArea .homeArea .LGLogoBox img{width: 9.375rem;}
     .barrotPage .mainArea .homeArea p{font-size: 5.000rem; font-weight: 700; color: white; line-height: 6.688rem; max-width: 49.688rem; margin-left: auto; position: relative; z-index: 2;}
