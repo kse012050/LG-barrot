@@ -62,12 +62,15 @@
     footer address dl dt{width: 4.688rem;}
     footer address > p{font-size: 0.688rem; opacity: 0.3;}
 }
-
+ 
 @media screen and (min-width:721px){
-    @media screen and (min-width:721px) and (max-width:1920px) {
+    @media screen and (min-width:721px) and (max-width:1536px) {
         html{font-size: 0.83333vw;}
     }
-    .barrotPage{max-width: 1920px; margin: 0 auto; overflow: hidden;}
+    @media screen and (min-width:1537px){
+        html{font-size: 12.8px;}
+    }
+    .barrotPage{max-width: 1536px; margin: 0 auto; overflow: hidden;}
     /* 컨텐츠 크기 */
     .paddingBox{padding-left: 3.750rem; padding-right: 3.750rem; box-sizing: border-box;}
     .paddingBox2{padding-left: 4.563rem; padding-right: 4.563rem; box-sizing: border-box;}
@@ -89,7 +92,7 @@
 
     header{position: fixed; left: 0; top: 0; width: 100%;  z-index: 100; pointer-events: none; transition: 0.5s background-color;}
     header.active{background-color: white; box-shadow: 0.625rem -3.438rem 5.313rem black;}
-    header div{ max-width: 1920px; margin: 0 auto;  display: flex; justify-content: space-between; align-items: center; padding: /* 3.438rem */1rem 3.750rem; box-sizing: border-box;}
+    header div{ max-width: 1536px; margin: 0 auto;  display: flex; justify-content: space-between; align-items: center; padding: /* 3.438rem */1rem 3.750rem; box-sizing: border-box;}
     header div h1{max-width: 8.313rem;}
     header div h1 a{display: block;}
     header div h1 a img{width: 100%;}
