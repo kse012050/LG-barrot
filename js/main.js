@@ -7,11 +7,11 @@ $(document).ready(function(){
 
 function menuEvent(){
     $('header button').click(function(){
-        $('header nav').stop().toggleClass('active');
+        $('nav').stop().toggleClass('active');
         $(this).toggleClass('active');
         $('header nav li a').click(function(e){
             $('header button').removeClass('active');
-            $('header nav').removeClass('active');
+            $('nav').removeClass('active');
             $('header nav li').removeClass('active');
             $(this).parent().addClass('active')
         });

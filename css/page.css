@@ -80,7 +80,9 @@
     .speciArea > div table{margin-bottom: 5rem;}
     .speciArea > div table caption{text-align: left; font-size: 2.250rem; font-weight: 700; margin-bottom: 1.250rem;}
     .speciArea > div table tbody{width: 100%; position: relative;}
-    .speciArea > div table tbody::after{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,0) 100%);}
+    @media screen and (-webkit-min-device-pixel-ratio:0){
+        .speciArea > div table tbody::after{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,0) 100%);}
+    }
     .speciArea > div table tr{width: 100%; text-align: left;}
     .speciArea > div table tr *{font-size: 1.375rem; line-height: 1.625rem; letter-spacing: -0.063rem;}
     .speciArea > div table tr th:first-child{width: 10.938rem; font-weight: 700;}
@@ -131,7 +133,7 @@
     .barrotPage .mainArea .evolutionArea div ul li strong{height: 6.250rem; font-size: 3.000rem; font-weight: 700; line-height: 3.125rem; display: flex; justify-content: center; align-items: center; margin-bottom: 4.688rem;}
     .barrotPage .mainArea .evolutionArea div ul li strong mark{color: #c01d3f;}
     .barrotPage .mainArea .evolutionArea div ul li p{font-size: 1.875rem; line-height: 2.125rem;}
-    .barrotPage .mainArea .evolutionArea div > .imgBox{position: absolute; bottom: -9.063rem; left: 0; width: 95%; height: 90.000rem; background-image: url('../images/productImg02.png'); z-index: 1; }
+    .barrotPage .mainArea .evolutionArea div > .imgBox{position: absolute; bottom: -9.063rem; left: 0; width: 95%; height: 90.000rem; background-image: url('../images/productImg02.png'); z-index: 1; background-position: right;}
     /* .barrotPage .mainArea .evolutionArea div > .imgBox img{width: 100%;} */
 
 
@@ -178,7 +180,9 @@
     .speciArea > div table{margin-bottom: 10rem;}
     .speciArea > div table caption{text-align: left; font-size: 3.063rem; font-weight: 700; margin-bottom: 3.750rem;}
     .speciArea > div table tbody{width: 100%; position: relative;}
-    .speciArea > div table tbody::after{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,0) 100%);}
+    @media screen and (-webkit-min-device-pixel-ratio:0){
+        .speciArea > div table tbody::after{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,0) 100%);}
+    }
     .speciArea > div table tr{width: 100%; text-align: left;}
     .speciArea > div table tr *{font-size: 1.500rem; line-height: 2.375rem;}
     .speciArea > div table tr th:first-child{width: 24.063rem; font-weight: 700;}
@@ -193,44 +197,46 @@
     .speciArea > div > p{font-size: 3.063rem; width: 23.438rem; line-height: 6.250rem; background-color: #1d1d1d; text-align: center; color: white; margin: 0 auto;}
 
 
-    
-    .barrotPage .mainArea .homeArea h2{animation: opacityAni 0.5s forwards; opacity: 0;}
-    .barrotPage .mainArea .homeArea .LGLogoBox{animation: opacityAni 0.5s 0.8s forwards; opacity: 0;}
-    .barrotPage .mainArea::before{animation: mainImg01 0.5s 0.4s forwards; left: -100%;}
-    @keyframes opacityAni {
-        0%{opacity: 0;}
-        100%{opacity: 1;}
+    @media screen and (-webkit-min-device-pixel-ratio:0){
+
+        .barrotPage .mainArea .homeArea h2{animation: opacityAni 0.5s forwards; opacity: 0;}
+        .barrotPage .mainArea .homeArea .LGLogoBox{animation: opacityAni 0.5s 0.8s forwards; opacity: 0;}
+        .barrotPage .mainArea::before{animation: mainImg01 0.5s 0.4s forwards; left: -100%;}
+        @keyframes opacityAni {
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+        @keyframes mainImg01 {
+            0%{left: -100%;}
+            100%{left: 0%;}
+        }
+
+        .barrotPage .mainArea > .imgArea{overflow: hidden;}
+        .barrotPage .mainArea > .imgArea img{transform: translateX(100%) translateY(-45.000em); transition: 0.5s transform;}
+        .barrotPage .mainArea > .imgArea.scrollEvent img{transform: translateX(0%) translateY(0px);}
+        .barrotPage .mainArea::after{opacity: 0; transition: 0.5s 0.4s opacity;}
+        .barrotPage .mainArea.scrollEvent::after{opacity: 1;}
+        .barrotPage .mainArea .homeArea p{opacity: 0; transition: 0.5s 0.8s opacity;}
+        .barrotPage .mainArea .homeArea p.scrollEvent{opacity: 1;}
+
+        [data-scrollEvent="opacity"]{opacity: 0; transition: 0.5s opacity;}
+        .slider[data-scrollEvent="opacity"]{transition-property: all;}
+        [data-scrollEvent="opacity"].scrollEvent{opacity: 1;}
+
+        [data-scrollEvent="leftArea"] li{transform: translateX(-100%); opacity:0; transition-duration: 0.5s; transition-property:  transform , opacity;;}
+        [data-scrollEvent="leftArea"].scrollEvent li{transform: translateX(0%); opacity:1;}
+
+        /* .barrotPage .mainArea .evolutionArea div ul[data-scrollEvent] + .imgBox{overflow: hidden;} */
+        .barrotPage .mainArea .evolutionArea div ul[data-scrollEvent] + .imgBox{transform: translateX(-100%) translateY(-73.125rem); transition: 0.5s 0.4s transform;}
+        .barrotPage .mainArea .evolutionArea div ul[data-scrollEvent].scrollEvent + .imgBox{transform: translateX(0%) translateY(0px);}
+
+        /* 
+        .barrotPage .mainArea .introduceArea h3{opacity: 0; transition: 0.5s opacity;}
+        .barrotPage .mainArea .introduceArea.scrollEvent h3{opacity: 1;}
+        .barrotPage .mainArea .introduceArea ul li{transform: translateX(-100%); opacity: 0; transition: 0.5s transform , opacity;}
+        .barrotPage .mainArea .introduceArea.scrollEvent ul li{transform: translateX(0%); opacity: 1;}
+        .barrotPage .mainArea .introduceArea p{opacity: 0; transition: 0.5s;}
+        .barrotPage .mainArea .introduceArea.scrollEvent p{opacity: 1;}
+        */
     }
-    @keyframes mainImg01 {
-        0%{left: -100%;}
-        100%{left: 0%;}
-    }
-
-    .barrotPage .mainArea > .imgArea{overflow: hidden;}
-    .barrotPage .mainArea > .imgArea img{transform: translateX(100%) translateY(-45.000em); transition: 0.5s transform;}
-    .barrotPage .mainArea > .imgArea.scrollEvent img{transform: translateX(0%) translateY(0px);}
-    .barrotPage .mainArea::after{opacity: 0; transition: 0.5s 0.4s opacity;}
-    .barrotPage .mainArea.scrollEvent::after{opacity: 1;}
-    .barrotPage .mainArea .homeArea p{opacity: 0; transition: 0.5s 0.8s opacity;}
-    .barrotPage .mainArea .homeArea p.scrollEvent{opacity: 1;}
-
-    [data-scrollEvent="opacity"]{opacity: 0; transition: 0.5s opacity;}
-    .slider[data-scrollEvent="opacity"]{transition-property: all;}
-    [data-scrollEvent="opacity"].scrollEvent{opacity: 1;}
-
-    [data-scrollEvent="leftArea"] li{transform: translateX(-100%); opacity:0; transition-duration: 0.5s; transition-property:  transform , opacity;;}
-    [data-scrollEvent="leftArea"].scrollEvent li{transform: translateX(0%); opacity:1;}
-
-    /* .barrotPage .mainArea .evolutionArea div ul[data-scrollEvent] + .imgBox{overflow: hidden;} */
-    .barrotPage .mainArea .evolutionArea div ul[data-scrollEvent] + .imgBox{transform: translateX(-100%) translateY(-73.125rem); transition: 0.5s 0.4s transform;}
-    .barrotPage .mainArea .evolutionArea div ul[data-scrollEvent].scrollEvent + .imgBox{transform: translateX(0%) translateY(0px);}
-
-    /* 
-    .barrotPage .mainArea .introduceArea h3{opacity: 0; transition: 0.5s opacity;}
-    .barrotPage .mainArea .introduceArea.scrollEvent h3{opacity: 1;}
-    .barrotPage .mainArea .introduceArea ul li{transform: translateX(-100%); opacity: 0; transition: 0.5s transform , opacity;}
-    .barrotPage .mainArea .introduceArea.scrollEvent ul li{transform: translateX(0%); opacity: 1;}
-    .barrotPage .mainArea .introduceArea p{opacity: 0; transition: 0.5s;}
-    .barrotPage .mainArea .introduceArea.scrollEvent p{opacity: 1;}
-    */
 }
